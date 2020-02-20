@@ -73,9 +73,9 @@ public class QuizController : MonoBehaviour
     private void ShowStats()
     {
         var script = statsCanvas.gameObject.GetComponent<StatsController>();
-        script.Show(rightAnswersCounter);
+        script.Show(rightAnswersCounter, questionsCollection.questions.Count);
 
-         this.gameObject.SetActive(false);
-         this.enabled = false;
+        this.gameObject.SetActive(false);
+        this.enabled = false;
     }
 }
