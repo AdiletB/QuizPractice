@@ -15,8 +15,9 @@ public class StatsController : MonoBehaviour
         rightAnswers.text = GetResultInPercents(countOfQuestions, count).ToString() + "%";
         gameObject.SetActive(true);
     }
-	private double GetResultInPercents(int count, int value){
-		return (value % count) * 100;
+	private double GetResultInPercents(int count, int value)
+    {
+		return (value / count) * 100;
 	}
     void Start()
     {

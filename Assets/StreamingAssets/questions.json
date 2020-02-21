@@ -1,19 +1,95 @@
 {
-	"questions" : [
-		{
-			"id": 0,
-			"question": "True or false?",
-			"answer": true
-		},
-		{
-			"id": 1,
-			"question": "Is Repository pattern - anti-pattern?",
-			"answer": false
-		},
-		{
-			"id": 2,
-			"question": "5 == '5'(JavaScript)",
-			"answer": true
-		}
-	]
+    "questions":
+    [
+        {
+            "id": 0,
+            "question_ru": "Истина или ложь?",
+            "question_kz": "Шын ба? Жалган ба?",
+            "question_en": "True or false?",
+            "options": [
+                {
+                    "id": 0,
+                    "isTrue": false,
+                    "text_ru": "Истина",
+                    "text_kz": "Шын",
+                    "text_en": "True"
+                },
+                {
+                    "id": 1,
+                    "isTrue": true,
+                    "text_ru": "Ложь!",
+                    "text_kz": "Жалган!",
+                    "text_en": "False"
+                }
+                
+            ]
+        },
+        {
+            "id": 1,
+            "question_ru": "Паттерн репозиторий - анти-паттерн?",
+            "question_kz": "Паттерн репозиторий - анти-паттерн ба?",
+            "question_en": "Is Repository - anti-pattern?",
+            "options": [
+                {
+                    "id": 0,
+                    "isTrue": false,
+                    "text_ru": "Истина",
+                    "text_kz": "Шын",
+                    "text_en": "True"
+                },
+                {
+                    "id": 1,
+                    "isTrue": false,
+                    "text_ru": "Ложь!",
+                    "text_kz": "Жалган!",
+                    "text_en": "False"
+                },
+                {
+                    "id": 2,
+                    "isTrue": true,
+                    "text_ru": "Зависит от дизайна и архитектуры вашего решения",
+                    "text_kz": "Сіздің шешіміңіздің дизайны мен сәулетіне байланысты",
+                    "text_en": "Depends on the design and architecture of your solution"
+                }
+                
+            ]
+        },
+        {
+            "id": 2,
+            "question_ru": "Пантера лучшая метал группа всех времен?",
+            "question_kz": "Пантера барлық уақыттағы ең жақсы металл тобы ма?",
+            "question_en": "Is Pantera the best metal band of all time?",
+            "options": [
+                {
+                    "id": 0,
+                    "isTrue": true,
+                    "text_ru": "ДА!",
+                    "text_kz": "Иә!!!",
+                    "text_en": "YEAAH!"
+                },
+                {
+                    "id": 1,
+                    "isTrue": true,
+                    "text_ru": "ДА!",
+                    "text_kz": "Иә!!!",
+                    "text_en": "YEAAH!"
+                },
+                {
+                    "id": 2,
+                    "isTrue": true,
+                    "text_ru": "ДА!",
+                    "text_kz": "Иә!!!",
+                    "text_en": "YEAAH!"
+                },
+                 {
+                    "id": 2,
+                    "isTrue": true,
+                    "text_ru": "ДА!",
+                    "text_kz": "Иә!!!",
+                    "text_en": "YEAAH!"
+                }
+                
+            ]
+        }
+    ]
 }

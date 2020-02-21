@@ -11,5 +11,23 @@ public class QuestionEntity
 [System.Serializable]
 public class QuestionCollection
 {
-    public List<QuestionEntity> questions;
+    public List<QuestionWithOptions> questions;
+}
+[System.Serializable]
+public class QuestionWithOptions
+{
+	public int id;
+    public string question_ru;
+    public string question_kz;
+    public string question_en;
+	public List<Option> options;
+}
+[System.Serializable]
+public class Option
+{
+    public int id;
+	public bool isTrue;
+	public string text_ru;
+	public string text_kz;
+	public string text_en;	
 }
